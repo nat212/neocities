@@ -1,0 +1,26 @@
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    color: #04573c;
+}
+
+html {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #ecbfe5;
+}
+
+body {
+    width: 100vw;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.flex-row {
+    display: flex;
+    flex-flow: row nowrap;
+}
+.flex-row.align-center {
+    align-items: center;
+}
+.flex-row.justify-center {
+    justify-content: center;
+}
